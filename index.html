@@ -1,13 +1,86 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <h1>"this is a beautiful hello world"</h1>
-</head>
+<html>
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial;
+}
+
+.header {
+  text-align: center;
+  padding: 32px;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 4px;
+}
+
+/* Create four equal columns that sits next to each other */
+.column {
+  flex: 25%;
+  max-width: 25%;
+  padding: 0 4px;
+}
+
+.column img {
+  margin-top: 8px;
+  vertical-align: middle;
+}
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media (max-width: 800px) {
+  .column {
+    flex: 50%;
+    max-width: 50%;
+  }
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media (max-width: 600px) {
+  .column {
+    flex: 100%;
+    max-width: 100%;
+  }
+}
+</style>
 <body>
-    
+
+<!-- Header -->
+<div class="header">
+  <h1>Captions Ruin Everything</h1>
+  <p>Captions Ruin Everything details my formative and current years documented by Instagram posts and captions. As a student who came from a strong community of students from K-12, everyone knew one another. As such, one of the ways students connected with each other and, to an extent, knew about the going-ons in their life was through Instagram. Through both images and captions, these two modes of communication on social media enhanced user experience, utilizing the internet as a way of self-expression. Additionally, the concept of mapping is present throughout the timeline and maturity of one’s posts, strengthening the bond between the poster and viewer.</p>
+</div>
+
+<!-- Photo Grid -->
+<div class="row"> 
+  <div class="column">
+    <a href="script 1.html"><img src="IMG_6131.jpg" style="width:100%" onMouseOver="this.src='change1.jpeg'" style="width:100%"></a>
+    <a href="script 2.html"><img src="IMG_6132.jpg" style="width:100%" onMouseOver="this.src='change2.JPG'" style="width:100%"></a>
+    <a href="script 3.html"><img src="IMG_6133.jpg" style="width:100%" onMouseOver="this.src='change3.jpeg'" style="width:100%"></a>
+  </div>
+  
+  <div class="column">
+    <a href="script 4.html"><img src="IMG_6134.jpg" style="width:100%" onMouseOver="this.src='change4.jpeg'" style="width:100%"></a>
+    <a href="script 5.html"><img src="IMG_6135.jpg" style="width:100%" onMouseOver="this.src='change5.jpg'" style="width:100%"></a>
+  </div> 
+   
+  <div class="column">
+    <a href="script 6.html"><img src="IMG_6136.jpg" style="width:100%" onMouseOver="this.src='change6.jpg'" style="width:100%"></a>
+    <a href="script 7.html"><img src="IMG_6137.jpg" style="width:100%" onMouseOver="this.src='change7.jpg'" style="width:100%"></a>
+  </div>
+  
+  <div class="column">
+    <a href="script 8.html"><img src="IMG_6138.jpg" style="width:100%" onMouseOver="this.src='change8.jpg'" style="width:100%"></a>
+    <a href="script 9.html"><img src="IMG_6139.jpg" style="width:100%" onMouseOver="this.src='change9.jpeg'" style="width:100%"></a>
+  </div>
+</div>
+
 </body>
 </html>
+
