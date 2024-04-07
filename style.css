@@ -1,0 +1,229 @@
+/*
+CSS RESETS:
+ Border box reset:
+https://www.paulirish.com/2012/box-sizing-border-box-ftw/
+ 62.5% Fix: https: //www.aleksandrhovhannisyan.com/blog/62-5-percent-font-size-trick/
+*/
+
+
+html {
+    box-sizing: border-box;
+    font-size: 62.5%;
+ }
+ 
+ 
+ *,
+ *:before,
+ *:after {
+    box-sizing: inherit;
+    margin: 0;
+    padding: 0;
+ }
+ 
+ 
+ html,
+ body {
+    height: 100%;
+ }
+ 
+ 
+ body {
+     font-size: 1.6rem;
+    /* font-size 1.6rem is now the same as 16px */
+    line-height: 1.6;
+ }
+
+ header {
+    padding: 50px;
+    /* background-color: rgb(181, 138, 107); */
+    text-align: center;
+ }
+
+ main {
+    /* max-width: 800px;
+    margin: 50px auto; */
+ }
+
+ .image-div{
+   display: inline-block;
+
+ }
+
+ .hidden {
+   visibility: hidden;
+ }
+
+ #image-1 {
+   position: absolute;
+   top: -1px;
+   left: 20vw;
+
+ }
+
+ #image-2 {
+   position: absolute;
+   top: 50px;
+   left: 40vw;
+
+ }
+
+ #image-3 {
+   position: absolute;
+   top: 200px;
+   left: 20px;
+
+ }
+
+ #image-4 {
+   position: absolute;
+   bottom: 200px;
+   right: 290px;
+
+ }
+
+ #image-5 {
+   position: absolute;
+   bottom: 200px;
+   left: -20px;
+
+ }
+
+ #image-6 {
+   position: absolute;
+   bottom: 230px;
+   right: -7px;
+
+ }
+
+ #image-7 {
+   position: absolute;
+   top: 215px;
+   right: 550px;
+
+ }
+
+ #image-8 {
+   position: absolute;
+   bottom: -1px;
+   right: 50px;
+
+ }
+
+ #image-9 {
+   position: absolute;
+   bottom: 80px;
+   left: 150px;
+
+ }
+
+ #image-10 {
+  position: absolute;
+  top: -1px;
+  left: 20vw;
+
+}
+
+#image-11 {
+  position: absolute;
+  top: 190px;
+  left: 70vw;
+
+}
+
+#image-12 {
+  position: absolute;
+  top: 183px;
+  left: 29vw;
+
+}
+
+#image-13 {
+  position: absolute;
+  top: 50px;
+  left: -2vw;
+
+}
+
+#image-14 {
+  position: absolute;
+  bottom: 200px;
+  right: 10vw;
+
+}
+
+#image-15 {
+  position: absolute;
+  bottom: 80px;
+  left: 50vw;
+
+}
+
+#image-16 {
+  position: absolute;
+  bottom: -5px;
+  left: 10vw;
+
+}
+
+#image-17 {
+  position: absolute;
+  bottom: 190px;
+  right: 30vw;
+
+}
+
+#image-18 {
+  position: absolute;
+  bottom: 20px;
+  right: 71vw;
+
+}
+
+#image-19 {
+  position: absolute;
+  top: 0px;
+
+}
+
+#image-20 {
+  position: absolute;
+  top: 0px;
+
+}
+
+#image-21 {
+  position: absolute;
+  top: 0px;
+
+}
+
+#image-22 {
+  position: absolute;
+  top: 0px;
+
+}
+
+#image-23 {
+  position: absolute;
+  top: 0px;
+
+}
+
+#image-24 {
+  position: absolute;
+  top: 0px;
+
+}
+
+#image-25 {
+  position: absolute;
+  top: 0px;
+
+}
+
+#image-26 {
+  position: absolute;
+  top: 0px;
+
+}
+
